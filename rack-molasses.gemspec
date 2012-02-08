@@ -16,6 +16,6 @@ Gem::Specification.new do |s|
   s.require_paths = ["lib"]
   s.license = 'MIT'
   s.add_development_dependency "rspec", "~>2.8"
-  s.add_runtime_dependency "rack", "~>1.4"
+  s.add_runtime_dependency "rack", "~>1.0"
   s.add_runtime_dependency "rack-cache", "~>1.1"
 end
